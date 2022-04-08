@@ -15,46 +15,8 @@ const Hero = () => {
         <h3>Haikal</h3>
         </div>
 
-        <div className="SQ">
-                
-                <div className="SP">
-                <img  src="foto/conta.png" alt="" ></img>
-                    <h3>Contact Info</h3>
-                </div>
-            </div>
 
-            <div className="SQ">
-                
-                <div className="SP">
-                <img  src="foto/fun.png" alt="" ></img>
-                    <h3>Kode referal</h3>
-                </div>
-            </div>
-
-            <div className="SQ">
-                
-                <div className="SP">
-                <img  src="foto/ban.png" alt="" ></img>
-                    <h3>Bank Account</h3>
-                </div>
-            </div>
-
-            <div className="SQ">
-                
-                <div className="SP">
-                <img  src="foto/doc.png" alt="" ></img>
-                    <h3>Document Account</h3>
-                </div>
-            </div>
-
-            <div className="SQ">
-                
-                <div className="SP">
-                <img  src="foto/Log.png" alt="" ></img>
-                    <h3>Log Out</h3>
-                </div>
-            </div>
-        
+       
     </div>
 
         

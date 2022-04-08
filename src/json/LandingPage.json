@@ -54,5 +54,28 @@
             "imageUrl": "/foto/cat.png",
             "title": "Obligasi"
         }
+    ],
+
+    "pengaturan": [{
+            "_id": "1",
+            "imageUrl": "/foto/conta.png",
+            "title": "Contact Info"
+        },
+        {
+            "_id": "2",
+            "imageUrl": "/foto/fun.png",
+            "title": "Uang"
+        },
+        {
+            "_id": "3",
+            "imageUrl": "/foto/ban.png",
+            "title": "Bank"
+        },
+        {
+            "_id": "4",
+            "imageUrl": "/foto/log.png",
+            "title": "Log Out"
+        }
+
     ]
 }
