@@ -1,0 +1,154 @@
+
+.mobile-nav{
+    background: orange;
+    position: fixed;
+    bottom: 0;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.child h3{
+    color: white;
+    margin-top: 70px;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+
+
+
+.mobile-nav img{
+    width: 25px;    
+    margin-top: 10px;
+}
+
+
+
+.foto1{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+
+.baca {
+    background-image: url(/public/foto/aku.svg);
+    background-repeat: no-repeat;
+    background-attachment: static;
+    background-position: top;
+
+}
+.main{
+    font-family: Arial;
+    font-size: 17px;
+    position: static;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.containerbox{   
+    font-family: arial;
+    font-size: 24px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    position: static;
+}
+
+
+.Main1{
+    position: static;
+    display: inline;
+    justify-content: space-around;
+}
+.main1{
+    position: static;
+ 
+    
+}
+
+.containerbox3{
+    width: 350px;
+    height: 90px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
+.containerbox2{
+    width: 90px;
+    height: 90px;
+    background-color:rgba(255, 186, 8, 1);
+    border-radius: 20px;
+    float: left;
+    position: static;
+    text-align: center;
+    margin:3.5%;
+    
+}
+
+
+.containerbox2 img{
+    width: 25px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+.containerbox3 h5{
+    color: orange;
+}
+
+.containerbox2 h5{
+    color: white;
+}
+
+.child{
+    width: 360px;
+    height: 160px;
+    border-radius: 40px;
+    position: relative;
+    margin-top:120px;
+    background-color: white;
+}
+
+
+
+.susa {
+   
+    font-family:bold,sans-serif;
+    color: aliceblue;
+    position: absolute;
+    
+}
+h6{
+    color: darkgrey;
+}
+.child h6{
+    margin-left: 60px;
+    margin-top: 45px;
+}
+.child h5{
+    margin-left: 55px;
+}   
+
+@media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+

@@ -1,0 +1,58 @@
+{
+    "information": [{
+            "_id": "1",
+            "imageUrl": "/foto/money.png",
+            "title": "Usend"
+        },
+        {
+            "_id": "2",
+            "imageUrl": "/foto/kertas.png",
+            "title": "uPlan"
+        },
+        {
+            "_id": "3",
+            "imageUrl": "/foto/dompet.png",
+            "title": "uNate"
+        }, 
+        {
+            "_id": "4",
+            "imageUrl": "/foto/dompet.png",
+            "title": "uPay"
+        },
+        {
+            "_id": "5",
+            "imageUrl": "/foto/kotak.png",
+            "title": "More"
+        }
+
+    ],
+
+    "foto": [{
+            "_id": "1",
+            "imageUrl": "/foto/kras.png"
+        },
+        {
+            "_id": "2",
+            "imageUrl": "/foto/gambar.png"
+        }
+
+    ],
+
+    "uvest": [{
+            "_id": "1",
+            "imageUrl": "/foto/invest.png",
+            "title": "Saham"
+
+        },
+        {
+            "_id": "2",
+            "imageUrl": "/foto/bit.png",
+            "title": "Reksadana"
+        },
+        {
+            "_id": "3",
+            "imageUrl": "/foto/cat.png",
+            "title": "Obligasi"
+        }
+    ]
+}

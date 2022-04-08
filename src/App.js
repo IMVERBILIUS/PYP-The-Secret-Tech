@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import styled from 'styled-components';
 
-function App() {
+import LandingPage from "./pages/LandingPages/LandingPage"
+import "./nav.css";
+import Navbar from "./Component/navbar"
+import Invest from "./pages/investasi/Investasi";
+import Setting from "./pages/Setting/Setting"
+
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+
+
+        <Navbar />
+    
+        <Switch>
+          <Route path="/invest">
+            <Invest />
+          </Route>
+          <Route path="/users">
+            <Setting />
+          </Route>
+          <Route path="/" >
+            <LandingPage />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
-export default App;
+
+function Users() {
+  return <h2>Users</h2>;
+}

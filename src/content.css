@@ -1,0 +1,84 @@
+
+.start h4{
+    font-family: sans-serif;
+    margin-right: 150px;
+    position: static;
+    
+}
+.start h5{
+    color: rgba(255, 186, 8, 1);
+    text-align: center;
+    margin-right: 150px;
+    position: static;
+}
+
+.atas h2{
+    text-align: center;
+    color: rgba(56, 56, 116, 1);
+    position: static;
+    
+}
+
+.tengah{
+    font-family: arial;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    position: static;
+}
+.anak_tengah{
+    width: 460px;
+    position: static;
+    margin-top:10px;
+    background-color: white;
+    margin-left: 60px;
+    height: 1360px;
+}
+.bawah h5{
+    color: rgba(255, 186, 8, 1);
+    text-align: center;
+    position: static;
+}
+* {
+    box-sizing: border-box;
+  }
+.container{
+  
+    font-family: Arial;
+    font-size: 17px;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+.label2 {
+    background-color: white;
+    width:  400px;
+    height: 70px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+}
+
+.label2 h3{
+    margin-left: 30px;
+}
+.label4{
+    justify-content: center;
+    position: static;
+    display: flex;
+
+}
+
+.foto2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.gh {
+    width: 330px;
+}

@@ -1,0 +1,41 @@
+.ST h2{
+    text-align: center;
+
+    position: static;
+    
+}
+
+.SY{
+    text-align: center;
+    position: static;
+    
+}
+
+.SP {
+    background-color: white;
+    width:  330px;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    display: flex;
+}
+.SP img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.SP h3{
+    margin-left: 30px;
+}
+.SQ{
+    justify-content: center;
+    position: static;
+    display: flex;
+    margin-top: 15px;
+}
+
+.WQ{
+    height: 750px;
+}
