@@ -12,7 +12,7 @@ import "./nav.css";
 import Navbar from "./Component/navbar"
 import Invest from "./pages/investasi/Investasi";
 import Setting from "./pages/Setting/Setting"
-
+import Course from "./pages/Course/Course"
 
 
 export default function App() {
@@ -24,6 +24,9 @@ export default function App() {
         <Navbar />
     
         <Switch>
+        <Route path="/Course">
+          <Course />
+            </Route>
           <Route path="/invest">
             <Invest />
           </Route>
@@ -39,7 +42,3 @@ export default function App() {
   );
 }
 
-
-function Users() {
-  return <h2>Users</h2>;
-}

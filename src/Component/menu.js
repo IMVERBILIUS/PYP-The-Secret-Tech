@@ -1,5 +1,11 @@
 import React from "react";
 import "../nav.css";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 const Menu = (props) => {
     return <React.Fragment>
@@ -7,7 +13,14 @@ const Menu = (props) => {
             <div className="main1">
                 <div className="containerbox3">
                         <h4>uCourse</h4>
+
+
+                        <Link to="/Course">
                         <h5>See More</h5>
+                        </Link>
+
+
+
                 </div>
             </div>
             
@@ -29,4 +42,7 @@ const Menu = (props) => {
 };
 
 
+function Course() {
+    return <h2>Home</h2>;
+  }
 export default Menu;
